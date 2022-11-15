@@ -91,6 +91,41 @@ const cardNumber = document.querySelector("#card-number")
 
 const cardMasked = IMask(cardNumber, cardNumberPattern)
 
-const addButton  = document.querySelector("#add-card")
-addButton.addEventListener("click")
+/// Eventos 
 
+const addButton  = document.querySelector("#add-card")
+addButton.addEventListener("click", () => { 
+  alert('Cartão adicionado!')
+})
+
+// Pegando o evento e impedindo de fzer o evento default de quando clica no botão. (recarregar págin, apagar console.log)
+document.querySelector("form").addEventListener("submit", (event) => {
+  event.preventDefault()
+})
+
+const cardHolder = document.querySelector("#card-holder")
+cardHolder.addEventListener("input", () => {
+  const ccHolder = document.querySelector(".cc-holder .value")
+  
+  ccHolder.innerText = cardHolder.value.length === 0 ? "FULANO DA SILVA" : cardHolder.value
+  
+})
+
+document.addEventListener("keydown", function(e) {
+
+  if(e.keyCode === 13) {
+        
+    e.preventDefault();
+    
+  }
+
+});
+
+
+securityCodeMasked.on("accept", () => {
+
+})
+
+function updateSecurityCode(code) {
+  const ccSecurity = document.querySelector(".cc-security .value")
+}
