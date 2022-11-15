@@ -17,7 +17,7 @@
   <img alt="rocketpay" src=".github/project.png" width="100%">
 </p>
 
-## 🚀 Tecnologias
+## 🚀 Tec
 
 The project was made with
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -28,7 +28,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Vite](https://vitejs.dev/)
 - [iMask](https://imask.js.org)
 
-## 💻 Projeto
+## 💻 Project
 
 Rockeypay is a component that simulates a credit card filling form, where is it possible to add mask to inputs and update HTML elements by DOM. You can see this project by (clicking here)[https://rocket-pay-lovat.vercel.app/]
 
@@ -36,7 +36,7 @@ Rockeypay is a component that simulates a credit card filling form, where is it 
 
 You can view the project layout by (clicking here)[https://www.figma.com/file/IFboa0EKyTlvovDPfqmzJ8/Explorer-Lab-01-Copy?fuid=872235376808752529]. It's necessary have  Figma account.
 
-## :memo: Licença
+## :memo: License
 
 This project is under MIT license.
 
