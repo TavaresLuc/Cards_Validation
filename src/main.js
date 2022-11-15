@@ -135,10 +135,21 @@ function updateSecurityCode(code) {
 // Atualizar número do cartão
 
 cardMasked.on("accept", () => {
+  const cardType = cardMasked.masked.currentMask.cardtype
+  setCardType(cardType)
   updateNumberCard(cardMasked.value)
 })
 
 function updateNumberCard(cardNumber) {
   const ccNumber = document.querySelector(".cc-number")
   ccNumber.innerText = cardNumber.length == 0 ? "1234 5678 9012 3456" : cardNumber
+}
+
+expirationDateMasked.on("accept", () => {
+  updateExpirationDate(expirationDateMasked.value)
+})
+
+function updateExpirationDate(date) {
+  const ccExpiration = document.querySelector(".cc-expiration .value")
+  ccExpiration.innerText = date.length === 0 ? "02/32" : date
 }
