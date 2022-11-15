@@ -121,11 +121,24 @@ document.addEventListener("keydown", function(e) {
 
 });
 
-
+// Atualizar CVC
 securityCodeMasked.on("accept", () => {
-
+  updateSecurityCode(securityCodeMasked.value)
 })
 
 function updateSecurityCode(code) {
   const ccSecurity = document.querySelector(".cc-security .value")
+
+  ccSecurity.innerText = code.length === 0 ? "123" : code
+}
+
+// Atualizar número do cartão
+
+cardMasked.on("accept", () => {
+  updateNumberCard(cardMasked.value)
+})
+
+function updateNumberCard(cardNumber) {
+  const ccNumber = document.querySelector(".cc-number")
+  ccNumber.innerText = cardNumber.length == 0 ? "1234 5678 9012 3456" : cardNumber
 }
