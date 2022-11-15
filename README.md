@@ -1,10 +1,10 @@
 <h1 align="center"> Rocket Pay </h1>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tec</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#memo-licença">License</a>
 </p>
 
 <p align="center">
@@ -19,6 +19,7 @@
 
 ## 🚀 Tecnologias
 
+The project was made with
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
@@ -29,16 +30,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Rocketpay é um componente que simula o formulário de preenchimento de cartão de crédito, onde é possível adicionar máscara aos inputs e atualizar elementos HTML via DOM.
-Você pode ver o projeto na prática [clicando aqui](rocket-pay-lovat.vercel.app/), o projetó está hospedado no Vercel.
+Rockeypay is a component that simulates a credit card filling form, where is it possible to add mask to inputs and update HTML elements by DOM. You can see this project by (clicking here)[https://rocket-pay-lovat.vercel.app/]
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/gpqavL469k0pPUGOmAQEM9/Explorer-Lab-%2301/duplicate). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+You can view the project layout by (clicking here)[https://www.figma.com/file/IFboa0EKyTlvovDPfqmzJ8/Explorer-Lab-01-Copy?fuid=872235376808752529]. It's necessary have  Figma account.
 
 ## :memo: Licença
 
-Esse projeto está sob a licença MIT.
+This project is under MIT license.
 
 ---
 
