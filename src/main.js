@@ -91,4 +91,6 @@ const cardNumber = document.querySelector("#card-number")
 
 const cardMasked = IMask(cardNumber, cardNumberPattern)
 
+const addButton  = document.querySelector("#add-card")
+addButton.addEventListener("click")
 
