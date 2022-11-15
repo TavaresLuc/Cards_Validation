@@ -42,4 +42,4 @@ This project is under MIT license.
 
 ---
 
-Made with Code and Love by Lucas Tavares
+Made with Code and ❤️ by Lucas Tavares
