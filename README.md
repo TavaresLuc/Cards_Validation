@@ -1,10 +1,10 @@
 <h1 align="center"> Rocket Pay </h1>
 
 <p align="center">
-  <a href="#-tecnologias">Tec</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">License</a>
+  <a href="#memo-license">License</a>
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
   <img alt="rocketpay" src=".github/project.png" width="100%">
 </p>
 
-## 🚀 Tec
+## 🚀 Technologies
 
 The project was made with
 Esse projeto foi desenvolvido com as seguintes tecnologias:
